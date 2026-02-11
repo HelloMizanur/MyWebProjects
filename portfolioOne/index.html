@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/output.css" rel="stylesheet">
+</head>
+<body class="font-nunito h-screen">
+    <header class="h-1/2 md:h-screen relative bg-linear-to-t from-indigo-200">
+      <!-- NavBar start -->
+       <div class="w-full fixed top-0 z-50">
+         <nav class="bg-white w-10/12 mx-auto flex justify-between items-center rounded-4xl shadow px-2 py-4">
+            <div class="flex items-center gap-2 ">
+              <img class="w-8" src="img/logo.png" alt="">
+              <h1 class="text-2xl text-indigo-900">PortWind</h1>
+            </div>
+            <ul class="hidden lg:flex space-x-3 uppercase">
+              <li class="hover:text-indigo-600"><a href="#home">HomePage</a></li>
+              <li class="hover:text-indigo-600"><a href="#about">About Me</a></li>
+              <li class="hover:text-indigo-600"><a href="#services">Sevices</a></li>
+              <li class="hover:text-indigo-600"><a href="#works">Works</a></li>
+              <li class="hover:text-indigo-600"><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hidden md:block">
+              <img class="w-8" src="img/moon.png" alt="">
+            </div>
+            <div id="hemburg" class="lg:hidden space-y-0.5 cursor-pointer z-20">
+              <div class="h-1 w-5 bg-black"></div>
+              <div class="h-1 w-5 bg-black"></div>
+              <div class="h-1 w-5 bg-black"></div>
+            </div>
+            <ul id="menu" class="absolute z-10 hidden w-full bg-indigo-900 top-0 left-0 text-center space-y-5 text-white rounded-b-3xl py-8 uppercase">
+              <li ><a id="hlink" href="#home">HomePage</a></li>
+              <li ><a id="hlink" href="#about">About Me</a></li>
+              <li><a id="hlink" href="#services">Sevices</a></li>
+              <li ><a id="hlink" href="#works">Works</a></li>
+              <li ><a id="hlink" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+       </div>
+       <!-- Banner start -->
+        <div id="home">
+        <!-- Image -->
+          <div>
+            <img class="absolute bottom-0 right-0 object-cover lg:left-0 mx-auto h-5/6" src="img/man.png" alt="">
+          </div>
+        <!-- Circle text -->
+
+        <!-- auto text  -->
+         <div class="absolute top-36 left-5 text-3xl text-gray-600 font-bold lg:text-7xl lg:top-72 lg:left-28">
+          <span>Frelance</span>
+          <h2 id="autoText" class="text-red-500"></h2>
+         </div>
+         <!-- Text box -->
+          <div class="hidden absolute lg:block bg-white top-40 right-12 w-2/6 py-6 px-7 space-y-6 shadow-2xl rounded-2xl">
+            <h1 class="text-2xl text-indigo-900">Hi, I am Mizanur Rahman</h1>
+            <h3 class="text-gray-600 ">I am a dedicated Web Developer with a passion for creating clean, modern, and user-friendly websites. With expertise in Tailwind CSS and JavaScript, I turn complex problems into elegant digital solutions that help brands grow.</h3>
+            <a class="bg-indigo-900 py-2 px-3 text-white font-bold rounded-md w-fit" href="">Hire Me</a>
+          </div>
+        </div>
+    </header>
+    <main>
+      <!-- About me -->
+      <div id="about" class="w-10/12 scroll-mt-24 mx-auto py-40 flex flex-col-reverse lg:flex-row gap-10">
+        <!-- Image -->
+         <div class="relative">
+          <img src="img/dots.png" class="absolute w-20 top-0 left-0" alt="">
+          <div>
+            <img class="rounded-full" src="img/portrait.png" alt="">
+          </div>
+         </div>
+         <!-- Text -->
+          <div class="flex flex-col space-y-5 justify-center">
+              <h1 class="text-2xl text-indigo-700">About Me</h1>
+              <h2 class="text-3xl">Better Design</h2>
+              <h2 class="text-3xl">Better Experience</h2>
+              <p class="text-gray-500">I specialize in building responsive web applications that provide a seamless experience across all devices. My goal is to combine aesthetic design with high-performance code. I am constantly learning new technologies to stay ahead in the fast-evolving tech world.</p>
+              <div>  
+              <h2 class="text-gray-500">HTML</h2>
+              <div class="w-full rounded-md h-1.5 bg-gray-500">
+                <div class="w-full rounded-md bg-indigo-700 h-1.5"></div>
+              </div>
+              </div>
+              <h2 class="text-gray-500">CSS</h2>
+              <div class="w-full rounded-md h-1.5 bg-gray-500">
+                <div class="w-4/5 rounded-md bg-indigo-700 h-1.5"></div>
+              </div>
+              <h2 class="text-gray-500">Tailwind</h2>
+              <div class="w-full rounded-md h-1.5 bg-gray-500">
+                <div class="w-3/5 rounded-md bg-indigo-700 h-1.5"></div>
+              </div>
+          </div>
+      </div>
+      <!-- Services -->
+       <div id="services" class="w-10/12 scroll-mt-24 mx-auto">
+           <!-- header of services -->
+            <div class="text-center space-y-3">
+              <h1 class="text-indigo-700">SERVICES</h1>
+              <h2 class="text-3xl">What do I offer?</h2>
+              <h3 class="text-gray-600">Creating intuitive and visually appealing user interfaces that users love.</h3>
+            </div>
+            <!-- items card -->
+             <div class="py-10 flex flex-col lg:flex-row gap-3 flex-wrap justify-center items-center">
+                <div class="flex flex-col gap-3 p-4 shadow-3xl bg-gray-200 w-80 rounded-md">
+                  <img class="w-10" src="img/icon.png" alt="">
+                  <p>UX/UI Design</p>
+                  <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, soluta?</p>
+                  <a class="text-2xl text-indigo-500 font-bold" href="">Read More</a>
+                </div>
+                <div class="flex flex-col gap-3 bg-gray-200 p-4 shadow-3xl w-80 rounded-md">
+                  <img class="w-10" src="img/icon.png" alt="">
+                  <p>UX/UI Design</p>
+                  <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, soluta?</p>
+                  <a class="text-2xl text-indigo-500 font-bold" href="">Read More</a>
+                </div>
+                <div class="flex flex-col gap-3 p-4 bg-gray-200 shadow-3xl w-80 rounded-md">
+                  <img class="w-10" src="img/icon.png" alt="">
+                  <p>UX/UI Design</p>
+                  <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, soluta?</p>
+                  <a class="text-2xl text-indigo-500 font-bold" href="">Read More</a>
+                </div>
+                <div class="flex flex-col bg-gray-200 gap-3 p-4 shadow-3xl w-80 rounded-md">
+                  <img class="w-10" src="img/icon.png" alt="">
+                  <p>UX/UI Design</p>
+                  <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, soluta?</p>
+                  <a class="text-2xl text-indigo-500 font-bold" href="">Read More</a>
+                </div>
+                <div class="flex flex-col bg-gray-200 gap-3 p-4 shadow-3xl w-80 rounded-md">
+                  <img class="w-10" src="img/icon.png" alt="">
+                  <p>UX/UI Design</p>
+                  <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, soluta?</p>
+                  <a class="text-2xl text-indigo-500 font-bold" href="">Read More</a>
+                </div>
+                <div class="flex flex-col bg-gray-200 gap-3 p-4 shadow-3xl w-80 rounded-md">
+                  <img class="w-10" src="img/icon.png" alt="">
+                  <p>UX/UI Design</p>
+                  <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, soluta?</p>
+                  <a class="text-2xl text-indigo-500 font-bold" href="">Read More</a>
+                </div>
+                <div class="flex flex-col bg-gray-200 gap-3 p-4 shadow-3xl w-80 rounded-md">
+                  <img class="w-10" src="img/icon.png" alt="">
+                  <p>UX/UI Design</p>
+                  <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, soluta?</p>
+                  <a class="text-2xl text-indigo-500 font-bold" href="">Read More</a>
+                </div>
+             </div>
+       </div>
+
+       <!-- Portfolio -->
+        <div id="works" class="w-10/12 mx-auto scroll-mt-24">
+           <!-- header of services -->
+            <div class="text-center space-y-3">
+              <h1 class="text-indigo-700">PORTFOLIO</h1>
+              <h2 class="text-3xl">WORKS AND PROJECTS</h2>
+              <h3 class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, tempora.</h3>
+            </div>
+            <!-- items card -->
+             <div class="py-10 flex flex-col lg:flex-row gap-8 flex-wrap items-center justify-center">
+               
+              <div class="w-72 shadow-2xl">
+                <img class=" rounded-2xl" src="img/item.png" alt="" srcset="">
+              </div>
+
+               <div class="w-72 shadow-2xl">
+                <img class=" rounded-2xl" src="img/item.png" alt="" srcset="">
+              </div>
+
+               <div class="w-72 shadow-2xl">
+                <img class=" rounded-2xl" src="img/item.png" alt="" srcset="">
+              </div>
+
+               <div class="w-72 shadow-2xl">
+                <img class=" rounded-2xl" src="img/item.png" alt="" srcset="">
+              </div>
+
+               <div class="w-72 shadow-2xl">
+                <img class=" rounded-2xl" src="img/item.png" alt="" srcset="">
+              </div>
+
+               <div class="w-72 shadow-2xl">
+                <img class=" rounded-2xl" src="img/item.png" alt="" srcset="">
+              </div>
+
+               <div class="w-72 shadow-2xl">
+                <img class=" rounded-2xl" src="img/item.png" alt="" srcset="">
+              </div>
+
+               <div class="w-72 shadow-2xl">
+                <img class=" rounded-2xl" src="img/item.png" alt="" srcset="">
+              </div>
+
+               <div class="w-72 shadow-2xl">
+                <img class=" rounded-2xl" src="img/item.png" alt="" srcset="">
+              </div>
+
+               <div class="w-72 shadow-2xl">
+                <img class=" rounded-2xl" src="img/item.png" alt="" srcset="">
+              </div>
+               
+                 
+             </div>
+       </div>
+
+       <!-- Contact form -->
+        <div id="contact" class="w-10/12 mx-auto scroll-mt-24 py-10">
+           <!-- header of services -->
+            <div class="text-center space-y-3">
+              <h1 class="text-indigo-700">Contact us</h1>
+              <h2 class="text-3xl">Send Us your message!</h2>
+              <h3 class="text-gray-600">Have a project in mind or just want to say hi? Feel free to reach out! I'm always open to discussing new opportunities and creative ideas</h3>
+            </div>
+            <!-- Form -->
+            <form class="py-5 px-2 flex flex-col space-y-5 justify-center mt-5 items-center rounded-3xl" action="">
+              <input class="w-full lg:w-1/2 p-3 ring-1 ring-indigo-600  rounded-md" type="text" placeholder="Name Surename">
+              <input class="w-full lg:w-1/2 p-3 ring-1 ring-indigo-600 rounded-md" type="email" name="" placeholder="Email" id="">
+              <textarea class="w-full lg:w-1/2 p-3 ring-1 ring-indigo-600 rounded-md" name="" cols="30" rows="10" placeholder="Message" id=""></textarea>
+              <button class="bg-indigo-900 lg:w-1/2 text-white py-3 px-2 rounded-md cursor-pointer">Submit</button>
+            </form>
+            
+       </div>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-indigo-800 w-full">
+      <div class=" text-white w-10/12 mx-auto flex px- justify-between items-center shadow px-2 py-4">
+            <div class="flex items-center gap-2 ">
+              <img class="w-10" src="img/logo.png" alt="">
+              <h1 class="text-2xl">PortWind</h1>
+            </div>
+           
+             <div class="flex gap-6">
+              <img class="cursor-pointer" src="img/facebook.png" alt="" srcset="">
+              <img class="cursor-pointer" src="img/linkedin.png" alt="" srcset="">
+              <img class="cursor-pointer" src="img/instagram.png" alt="" srcset="">
+             </div>
+            
+          </div>
+    </footer>
+    <script src="app.js"></script>
+    <script src="autotyping.js"></script>
+</body>
+</html>
